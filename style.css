@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Garamond', serif;
+  background: url('https://wallpapers.com/images/hd/bloodborne-4k-hd-14ve8dxe83wsn1tq.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  border: 2px solid #2e2e2e;
+}
+
+.text-box {
+  padding: 25px;
+  margin-bottom: 25px;
+  background: linear-gradient(145deg, rgba(40, 0, 0, 0.8), rgba(20, 0, 0, 0.9));
+  border: 2px solid #5b0000;
+  color: #e0e0e0;
+  border-radius: 12px;
+  font-size: 1.3em;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.3);
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+}
+
+.choice-btn {
+  background-color: #8a0303;
+  color: #f0f0f0;
+  padding: 12px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  font-size: 1.1em;
+  border-radius: 8px;
+  font-family: 'Garamond', serif;
+}
+
+.choice-btn:hover {
+  background-color: #4f0101;
+  transform: scale(1.05);
+}
+
+.choice-btn:active {
+  background-color: #5a0000;
+  transform: scale(1.02);
+}
